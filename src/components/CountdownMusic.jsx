@@ -65,7 +65,7 @@ export default function CountdownMusic() {
   };
 
   return (
-    <section className="relative flex items-center justify-center py-20 px-6"
+    <section className="relative flex items-center justify-center pt-20 pb-10 px-6"
       style={{ background: 'linear-gradient(150deg, #dcedf4 0%, #f5ede0 100%)' }}>
       <div className="absolute inset-0 pointer-events-none"
         style={{ backgroundImage: 'radial-gradient(circle, rgba(123,157,180,.18) 1.5px, transparent 1.5px)', backgroundSize: '28px 28px' }} />

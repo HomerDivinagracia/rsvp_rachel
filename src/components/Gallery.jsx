@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from 'react';
-import Reveal from './Reveal.jsx';
 
 const photos = [
   '/other_picture/untitled (151 of 490).jpg',
@@ -35,17 +34,17 @@ export default function Gallery() {
 
   return (
     <>
-      <section className="bg-dusty-pale py-24 px-6">
+      <section className="bg-dusty-pale py-14 px-6">
         <div className="max-w-[960px] mx-auto">
-          <Reveal className="from-left"><p className="text-[0.7rem] tracking-[0.35em] uppercase text-dusty mb-3 text-center">Our Story</p></Reveal>
-          <Reveal><h2 className="font-serif text-fluid-title font-light leading-[1.2] mb-4 text-dusty-dark text-center">A Glimpse of Us</h2></Reveal>
-          <Reveal><div className="w-10 h-0.5 bg-gradient-to-r from-dusty-light to-gold rounded mx-auto mb-8" /></Reveal>
+          <p className="text-[0.7rem] tracking-[0.35em] uppercase text-dusty mb-3 text-center">Our Story</p>
+          <h2 className="font-serif text-fluid-title font-light leading-[1.2] mb-4 text-dusty-dark text-center">A Glimpse of Us</h2>
+          <div className="w-10 h-0.5 bg-gradient-to-r from-dusty-light to-gold rounded mx-auto mb-8" />
 
-          <Reveal group className="gallery-grid mt-8">
+          <div className="gallery-grid mt-8">
             {photos.map((src, i) => (
               <img key={i} src={src} alt={`Rocky and Rachel photo ${i + 1}`} onClick={() => show(i)} />
             ))}
-          </Reveal>
+          </div>
         </div>
       </section>
 

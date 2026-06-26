@@ -24,7 +24,7 @@ function NameList({ names }) {
   return (
     <ul className="list-none p-0 m-0">
       {names.map((n, i) => (
-        <li key={i} className={`text-[0.8rem] text-muted py-1.5 border-b border-dusty-light last:border-b-0 tracking-[0.03em] ${n.bold ? 'font-medium !text-dark' : ''}`}>
+        <li key={i} className={`text-[0.8rem] text-muted py-1.5 border-b border-dusty-light last:border-b-0 tracking-[0.03em] ${n.bold === true ? 'font-medium !text-dark' : ''}`}>
           {n.name || n}
           {n.role && <span className="block text-[0.6rem] text-gold tracking-[0.14em] uppercase mt-0.5">{n.role}</span>}
         </li>
@@ -44,7 +44,7 @@ function ChildRole({ label, name }) {
 
 export default function Entourage() {
   return (
-    <section className="bg-white py-24 px-6">
+    <section className="bg-white py-14 px-6">
       <div className="max-w-[860px] mx-auto">
         <Reveal className="from-left"><p className="text-[0.7rem] tracking-[0.35em] uppercase text-dusty mb-3 text-center">The Entourage</p></Reveal>
         <Reveal><h2 className="font-serif text-fluid-title font-light leading-[1.2] mb-4 text-dusty-dark text-center">Our Wedding Party</h2></Reveal>
@@ -74,7 +74,7 @@ export default function Entourage() {
         <Reveal group className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           <Group title="Groom's Men">
             <NameList names={[
-              { name: 'Dave Marbaja', bold: true, role: 'Best Man' },
+              { name: 'Dave Marbaja', role: 'Best Man' },
               'Kayron Formales','Paul Dabalmat','Russel Biturin','Echo Rosales',
               'Rain Declaros','Raquim Declaros','Kenneth Ortilano','Michael Ramirez'
             ]} />

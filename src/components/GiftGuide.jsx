@@ -35,7 +35,7 @@ const gifts = [
 
 export default function GiftGuide() {
   return (
-    <section className="bg-dusty-pale py-24 px-6">
+    <section className="bg-dusty-pale py-14 px-6">
       <div className="max-w-[720px] mx-auto">
         <Reveal className="from-left"><p className="text-[0.7rem] tracking-[0.35em] uppercase text-dusty mb-3 text-center">Gift Guide</p></Reveal>
         <Reveal><h2 className="font-serif text-fluid-title font-light leading-[1.2] mb-4 text-dusty-dark text-center">A Little Note</h2></Reveal>
