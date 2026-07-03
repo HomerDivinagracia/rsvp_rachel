@@ -75,7 +75,7 @@ export default function CountdownMusic() {
         <source src="/music/canon_in_d.mp3" type="audio/mpeg" />
       </audio>
 
-      <Reveal className="w-full max-w-full rounded-2xl overflow-hidden relative z-10 shadow-[0_2px_6px_rgba(74,122,150,.08),0_10px_36px_rgba(74,122,150,.18),0_32px_72px_rgba(74,122,150,.08)]">
+      <Reveal className="w-full max-w-[520px] mx-auto rounded-2xl overflow-hidden relative z-10 shadow-[0_2px_6px_rgba(74,122,150,.08),0_10px_36px_rgba(74,122,150,.18),0_32px_72px_rgba(74,122,150,.08)]">
 
         {/* Blue header */}
         <div className="relative text-center pt-10 px-8 pb-0"

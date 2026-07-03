@@ -2,7 +2,7 @@ import Reveal from './Reveal.jsx';
 
 export default function VenuePhoto() {
   return (
-    <section className="bg-cream text-center py-14 px-6">
+    <section className="bg-cream text-center py-16 px-6">
       <div className="max-w-[720px] mx-auto">
         <Reveal className="from-left"><p className="text-[0.7rem] tracking-[0.35em] uppercase text-dusty mb-3">The Venue</p></Reveal>
         <Reveal><h2 className="font-serif text-fluid-title font-light leading-[1.2] mb-4 text-dusty-dark">Glendenning Hotel &amp; Resort</h2></Reveal>
@@ -12,7 +12,7 @@ export default function VenuePhoto() {
           <img
             src="/venue/glendenning.jpg"
             alt="Glendenning Hotel and Resort"
-            className="w-full h-[420px] object-cover block transition-transform duration-[600ms] ease group-hover:scale-[1.03]"
+            className="w-full h-[300px] sm:h-[440px] object-cover block transition-transform duration-[600ms] ease group-hover:scale-[1.03]"
             onError={(e) => { e.target.style.minHeight = '420px'; e.target.style.background = 'linear-gradient(135deg,#b5cad8 0%,#d6e4ec 50%,#c9d8e2 100%)'; e.target.removeAttribute('src'); }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[rgba(30,50,60,.55)] to-transparent pointer-events-none" />

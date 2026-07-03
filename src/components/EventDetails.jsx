@@ -49,13 +49,13 @@ const cards = [
 
 export default function EventDetails() {
   return (
-    <section className="bg-white py-14 px-6">
-      <div className="max-w-[720px] mx-auto">
-        <Reveal className="from-left"><p className="text-[0.7rem] tracking-[0.35em] uppercase text-dusty mb-3 pl-5">The Celebration</p></Reveal>
-        <Reveal><h2 className="font-serif text-fluid-title font-light leading-[1.2] mb-4 text-dusty-dark">Event Details</h2></Reveal>
-        <Reveal><div className="w-10 h-0.5 bg-gradient-to-r from-dusty-light to-gold rounded mb-10" /></Reveal>
+    <section className="bg-white py-16 px-6">
+      <div className="max-w-[900px] mx-auto">
+        <Reveal className="from-left"><p className="text-[0.7rem] tracking-[0.35em] uppercase text-dusty mb-3 text-center">The Celebration</p></Reveal>
+        <Reveal><h2 className="font-serif text-fluid-title font-light leading-[1.2] mb-4 text-dusty-dark text-center">Event Details</h2></Reveal>
+        <Reveal><div className="w-10 h-0.5 bg-gradient-to-r from-dusty-light to-gold rounded mx-auto mb-12" /></Reveal>
 
-        <Reveal group className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-2">
+        <Reveal group className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-2">
           {cards.map((card) => (
             <div key={card.title}
               className="bg-dusty-pale border border-dusty-light border-t-[3px] border-t-dusty rounded-xl p-8 text-center transition-all duration-[250ms] hover:-translate-y-1.5 hover:shadow-[0_12px_32px_rgba(123,157,180,.2)]">
