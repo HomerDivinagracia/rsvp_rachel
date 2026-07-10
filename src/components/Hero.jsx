@@ -31,6 +31,13 @@ export default function Hero() {
         <p className="animate-hero-5 mt-2 text-[0.7rem] tracking-[0.3em] uppercase text-white/50">
           request the honour of your presence
         </p>
+
+        <p className="animate-hero-5 mt-8 font-serif italic text-[0.82rem] text-white/60 leading-[1.8] max-w-[340px] mx-auto [text-shadow:0_1px_8px_rgba(0,0,0,.3)]">
+          "The smallest family will become a thousand people, and the tiniest group will become a mighty nation. At the right time, I, the Lord, will make it happen."
+        </p>
+        <p className="animate-hero-5 mt-1.5 text-[0.6rem] tracking-[0.28em] uppercase text-gold/70">
+          Isaiah 60:22
+        </p>
       </div>
 
       {/* Scroll hint — gentle float instead of hard bounce */}

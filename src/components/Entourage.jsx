@@ -59,14 +59,30 @@ export default function Entourage() {
           </Group>
         </Reveal>
 
+        <Divider label="Officiant" />
+        <Reveal className="flex justify-center mb-2">
+          <div className="bg-dusty-pale border border-dusty-light border-t-[3px] border-t-gold rounded-xl p-7 text-center w-full max-w-[320px]">
+            <h3 className="font-serif text-[1.2rem] font-light italic text-dusty-dark mb-1 tracking-[0.04em]">Pastor Vince Saulong</h3>
+            <p className="text-[0.6rem] tracking-[0.22em] uppercase text-gold">Officiating Minister</p>
+          </div>
+        </Reveal>
+
         <Divider label="Principal Sponsors" />
         <Reveal><p className="font-script text-fluid-ent text-dusty-dark text-center mb-5 leading-[1.2]">Ninang &amp; Ninong</p></Reveal>
         <Reveal group className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           <Group subtitle="Ninang">
-            <NameList names={['Tita Basing','Tita Ritchell','Tita Nida','Maring Francisco','Tita Rose Talamillo','Sister Doring','Ate Ayra',"Ma'am Emz"]} />
+            <NameList names={[
+              'Ninang Emelinda Sasota','Ninang Ritchel Rosales','Ninang Nida Morales',
+              'Ninang Marilou Francisco','Ninang Rosemarie Talamillo','Ninang Lorna Sugbo',
+              'Ninang Adoracion Laron','Ninang Ayra Silorio','Ninang Aimee Rivera',
+            ]} />
           </Group>
           <Group subtitle="Ninong">
-            <NameList names={['Tito Jimmy','Tito Jun-Jun','Tito Boyong','Bugoy Francisco','Bro. Rod','Sir Melvin']} />
+            <NameList names={[
+              'Ninong Jimmy Sasota','Ninong Rodelfo Jr. Rosales','Ninong Boyong Morales',
+              'Ninong Willy Francisco','Ninong Eduardo Talamillo','Ninong Randy Sugbo',
+              'Ninong Rodolfo Laron','Ninong Richard Navales','Ninong Melvin Rivera',
+            ]} />
           </Group>
         </Reveal>
 
@@ -81,7 +97,7 @@ export default function Entourage() {
           </Group>
           <Group title="Bridesmaids">
             <NameList names={[
-              'Mariella Amistoso','Chris Ramirez','Melissa Ramirez','Roda Joy Declaros',
+              { name: 'Mariella Amistoso', role: 'Maid of Honor' },'Chris Ramirez','Melissa Ramirez','Roda Joy Declaros',
               'Ludelyn Sugbo','Mhai Barlao','Renalyn Hindap','Kim Lagria','Erika Mausig'
             ]} />
           </Group>
