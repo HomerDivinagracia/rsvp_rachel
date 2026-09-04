@@ -82,7 +82,7 @@ export default function Entourage() {
             <NameList names={[
               'Ninong Jimmy Sasota','Ninong Rodelfo Jr. Rosales','Ninong Boyong Morales',
               'Ninong Willy Francisco','Ninong Eduardo Talamillo','Ninong Randy Sugbo',
-              'Ninong Rodolfo Laron','Ninong Richard Navales','Ninong Melvin Rivera',
+              'Ninong Rodolfo Laron','Ninong Melvin Rivera',
               'Ninong Ramon Ramirez','Ninong Ricky Biturin',
             ]} />
           </Group>
@@ -113,10 +113,10 @@ export default function Entourage() {
             <ChildRole label="Flower Girls" name={"Chloe Regala\nKianna Sugbo\nErin Ignacio\nBrielle Ayah Malunes\nHailey Faith Santuyo"} />
           </Group>
           <Group title="Boys">
-            <ChildRole label="Bible Bearer" name="Red Sanidad" />
-            <ChildRole label="Little Groom" name="Mico Demos" />
+            <ChildRole label="Ring Bearer" name="Red Sanidad" />
+            <ChildRole label="Bible Bearer" name="Mico Demos" />
+            <ChildRole label="Coin Bearer" name="Clint Gamol" />
             <ChildRole label="Here Comes the Groom" name="Austin Esguerra" />
-            <ChildRole label="Ring Bearer" name="Clint Gamol" />
           </Group>
         </Reveal>
       </div>
