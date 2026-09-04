@@ -99,7 +99,7 @@ export default function Entourage() {
           </Group>
           <Group title="Bridesmaids">
             <NameList names={[
-              { name: 'Mariella Amistoso', role: 'Maid of Honor' },'Chris Ramirez','Melissa Ramirez','Roda Joy Declaros',
+              { name: 'Mariella Amistoso', role: 'Maid of Honor' },{ name: 'Mary Chris Ramirez', role: 'Maid of Honor' },'Melissa Ramirez','Roda Joy Declaros',
               'Ludelyn Sugbo','Mhai Barlao','Renalyn Hindap','Kim Lagria','Erika Mausig'
             ]} />
           </Group>
