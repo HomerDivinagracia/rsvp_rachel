@@ -75,6 +75,7 @@ export default function Entourage() {
               'Ninang Emelinda Sasota','Ninang Ritchel Rosales','Ninang Nida Morales',
               'Ninang Marilou Francisco','Ninang Rosemarie Talamillo','Ninang Lorna Sugbo',
               'Ninang Adoracion Laron','Ninang Ayra Silorio','Ninang Aimee Rivera',
+              'Ninang Ana Dela Cruz Ramirez','Ninang Elsa Biturin',
             ]} />
           </Group>
           <Group subtitle="Ninong">
@@ -82,6 +83,7 @@ export default function Entourage() {
               'Ninong Jimmy Sasota','Ninong Rodelfo Jr. Rosales','Ninong Boyong Morales',
               'Ninong Willy Francisco','Ninong Eduardo Talamillo','Ninong Randy Sugbo',
               'Ninong Rodolfo Laron','Ninong Richard Navales','Ninong Melvin Rivera',
+              'Ninong Ramon Ramirez','Ninong Ricky Biturin',
             ]} />
           </Group>
         </Reveal>
@@ -108,7 +110,7 @@ export default function Entourage() {
           <Group title="Girls">
             <ChildRole label="Little Bride" name="Christine Sanidad" />
             <ChildRole label="Here Comes the Bride" name="Rhianna Declaros" />
-            <ChildRole label="Flower Girls" name={"Chloe Regala\nKianna Sugbo\nErin Ignacio"} />
+            <ChildRole label="Flower Girls" name={"Chloe Regala\nKianna Sugbo\nErin Ignacio\nBrielle Ayah Malunes\nHailey Faith Santuyo"} />
           </Group>
           <Group title="Boys">
             <ChildRole label="Bible Bearer" name="Red Sanidad" />

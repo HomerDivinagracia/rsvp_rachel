@@ -26,7 +26,7 @@ const cards = [
   },
   {
     title: 'Venue',
-    body: 'Glendenning Hotel and Resort\nSan Jose, Occidental Mindoro',
+    body: "Season's Hotel\nSan Jose, Occidental Mindoro",
     icon: (
       <svg viewBox="0 0 28 28" className="w-[26px] h-[26px]">
         <path fill="rgba(255,255,255,0.85)" stroke="none" d="M14 3 C9.58 3 6 6.58 6 11 C6 17.25 14 25 14 25 C14 25 22 17.25 22 11 C22 6.58 18.42 3 14 3 Z"/>
